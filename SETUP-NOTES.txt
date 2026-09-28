@@ -1,0 +1,33 @@
+SETUP NOTES — 2 quick things to finish before you go live
+============================================================
+
+1) MAKE THE CONTACT FORM ACTUALLY SEND EMAILS
+   Go to https://web3forms.com, get a FREE access key with your email,
+   then open main.js and replace:
+       const WEB3FORMS_ACCESS_KEY = "YOUR_ACCESS_KEY_HERE";
+   with your real key. The form will then email you directly,
+   including any CV / cover letter attachments visitors send.
+
+2) ADD YOUR REAL RESUME & COVER LETTER FILES
+   The download buttons point to resume.pdf and cover-letter.pdf.
+   Drop your actual PDFs into the same folder as index.html with
+   those exact names.
+
+WHAT CHANGED IN THIS UPDATE
+   - Hero and About section photo replaced with the professional
+     blazer photo (photo.jpeg). GPHOTO.jpg and image.jpg (the purple
+     background) are no longer used — you can delete them from your
+     repo, or keep them as backups.
+   - Hero background is now a clean, subtle gradient instead of a
+     busy photo, with your photo shown as a circular portrait.
+   - Added a scroll progress bar at the very top of the page.
+   - Added a new Testimonials section (edit the placeholder names/
+     quotes in index.html to add real client/recruiter feedback).
+
+OPTIONAL PERSONALIZATION
+   - Resume section has placeholder education/certification text —
+     edit the timeline-item blocks in index.html.
+   - Two of the three portfolio project cards are placeholders —
+     replace image, title, description and link with real projects.
+   - Testimonials are placeholders — swap in real quotes once you
+     have them (or remove the section if you don't have any yet).
